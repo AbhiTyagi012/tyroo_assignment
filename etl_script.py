@@ -27,7 +27,7 @@ try:
         f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}",
         echo=False
     )
-    logging.info("✅ Database engine created successfully.")
+    logging.info("Database engine created successfully.")
 except Exception as e:
     logging.error(f"❌ Failed to create engine: {e}")
     sys.exit(1)
@@ -51,7 +51,7 @@ try:
         logging.info(f"Inserted chunk of {len(chunk)} records")
         first_chunk = False
 
-    logging.info(f"✅ Table '{TABLE_NAME}' created and fully populated from CSV.")
+    logging.info(f"Table '{TABLE_NAME}' created and fully populated from CSV.")
 
 except Exception as e:
     logging.error(f"❌ ETL Failed: {e}")
