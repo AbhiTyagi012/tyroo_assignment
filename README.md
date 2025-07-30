@@ -45,8 +45,7 @@ This project reads a large CSV file in chunks, cleans it by replacing empty valu
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
-cd <your-folder>
+git clone 
 ```
 
 ### 2. Install dependencies
@@ -72,11 +71,11 @@ pip install -r requirements.txt
 Ensure you have a PostgreSQL server running and update the credentials in `etl_script.py`:
 
 ```python
-DB_USER = "postgres"
-DB_PASSWORD = "root"
-DB_HOST = "localhost"
-DB_PORT = "5432"
-DB_NAME = "postgres"
+DB_USER = 
+DB_PASSWORD = 
+DB_HOST = 
+DB_PORT = 
+DB_NAME = 
 ```
 
 Also update the path to your CSV file:
