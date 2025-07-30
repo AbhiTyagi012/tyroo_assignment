@@ -45,7 +45,7 @@ This project reads a large CSV file in chunks, cleans it by replacing empty valu
 ### 1. Clone the repository
 
 ```bash
-git clone 
+git clone https://github.com/AbhiTyagi012/tyroo_assignment.git
 ```
 
 ### 2. Install dependencies
